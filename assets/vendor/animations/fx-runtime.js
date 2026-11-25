@@ -8,7 +8,7 @@
   'use strict';
 
   const FX_LIST = [
-    '_util',
+    'util',
     'particle-burst','confetti-cannon','firework','starfield','matrix-rain',
     'knowledge-graph','neural-net','constellation','orbit-ring','galaxy-swirl',
     'word-cascade','letter-explode','chain-react','magnetic-field','data-stream',
