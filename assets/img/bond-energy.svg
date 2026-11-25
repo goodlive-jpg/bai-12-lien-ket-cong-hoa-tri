@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420">
+<defs>
+  <style>
+    .bar{fill:#2d7d6e;transform-box:fill-box;transform-origin:bottom;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}
+    .bar.b2{fill:#4ea893;animation-delay:.16s}.bar.b3{fill:#d88a3a;animation-delay:.32s}
+    @keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+    .lb{font:700 19px Arial,Helvetica,sans-serif;fill:#2a2418;text-anchor:middle}
+    .vl{font:800 22px Arial,Helvetica,sans-serif;fill:#2d7d6e;text-anchor:middle}
+    .ax{stroke:#8a7f68;stroke-width:2}
+  </style>
+</defs>
+<rect width="900" height="420" rx="18" fill="#fbfaf6"/>
+<path d="M100 350 H830" class="ax"/>
+<g>
+  <rect x="180" y="110" width="120" height="240" rx="8" class="bar"/>
+  <text x="240" y="94" class="vl">243</text><text x="240" y="382" class="lb">Cl–Cl</text>
+</g>
+<g>
+  <rect x="390" y="159" width="120" height="191" rx="8" class="bar b2"/>
+  <text x="450" y="143" class="vl">193</text><text x="450" y="382" class="lb">Br–Br</text>
+</g>
+<g>
+  <rect x="600" y="201" width="120" height="149" rx="8" class="bar b3"/>
+  <text x="660" y="185" class="vl">151</text><text x="660" y="382" class="lb">I–I</text>
+</g>
+<text x="760" y="250" class="lb" style="text-anchor:start;font-size:17px;fill:#5a5140">kJ/mol</text>
+<text x="450" y="52" class="lb" style="font-size:20px;fill:#2d7d6e">Năng lượng liên kết càng lớn → liên kết càng bền</text>
+</svg>

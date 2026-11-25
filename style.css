@@ -1,0 +1,98 @@
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:300;font-display:swap;src:url('assets/fonts/BeVietnamPro-300-vietnamese.woff2') format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:300;font-display:swap;src:url('assets/fonts/BeVietnamPro-300-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:300;font-display:swap;src:url('assets/fonts/BeVietnamPro-300-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:400;font-display:swap;src:url('assets/fonts/BeVietnamPro-400-vietnamese.woff2') format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:400;font-display:swap;src:url('assets/fonts/BeVietnamPro-400-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:400;font-display:swap;src:url('assets/fonts/BeVietnamPro-400-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:600;font-display:swap;src:url('assets/fonts/BeVietnamPro-600-vietnamese.woff2') format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:600;font-display:swap;src:url('assets/fonts/BeVietnamPro-600-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:600;font-display:swap;src:url('assets/fonts/BeVietnamPro-600-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:800;font-display:swap;src:url('assets/fonts/BeVietnamPro-800-vietnamese.woff2') format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:800;font-display:swap;src:url('assets/fonts/BeVietnamPro-800-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:800;font-display:swap;src:url('assets/fonts/BeVietnamPro-800-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:600;font-display:swap;src:url('assets/fonts/Playfair-600-vietnamese.woff2') format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:600;font-display:swap;src:url('assets/fonts/Playfair-600-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:600;font-display:swap;src:url('assets/fonts/Playfair-600-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:600;font-display:swap;src:url('assets/fonts/Playfair-600i-vietnamese.woff2') format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:600;font-display:swap;src:url('assets/fonts/Playfair-600i-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:600;font-display:swap;src:url('assets/fonts/Playfair-600i-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:800;font-display:swap;src:url('assets/fonts/Playfair-800-vietnamese.woff2') format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:800;font-display:swap;src:url('assets/fonts/Playfair-800-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:800;font-display:swap;src:url('assets/fonts/Playfair-800-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+.tpl-course-module{--bg:#fbfaf6;--bg-soft:#f4f1e8;--surface:#ffffff;--surface-2:#f6f3ea;--border:rgba(60,45,20,.13);--border-strong:rgba(60,45,20,.26);--text-1:#2a2418;--text-2:#5a5140;--text-3:#8a7f68;--accent:#2d7d6e;--accent-2:#d88a3a;--accent-3:#c4593f;--accent-ink:#ffffff;--grad:linear-gradient(135deg,#2d7d6e,#4ea893);--radius:14px;--radius-lg:20px;--shadow:0 12px 30px rgba(60,45,20,.07);font-family:'Be Vietnam Pro',sans-serif}
+.tpl-course-module .slide{padding:56px 78px;background:var(--bg);display:grid;grid-template-columns:248px 1fr;gap:52px;align-content:start}
+.tpl-course-module .slide.full{grid-template-columns:1fr;display:flex;flex-direction:column;justify-content:center;padding:72px 92px}
+.tpl-course-module .sidebar{border-right:1px solid var(--border);padding-right:30px;position:relative}
+.tpl-course-module .sidebar .brand{font-family:'Playfair Display',serif;font-size:20px;font-weight:800;color:var(--accent)}
+.tpl-course-module .sidebar .brand::before{content:'✦ ';color:var(--accent-2)}
+.tpl-course-module .sidebar h5{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--text-3);margin:28px 0 10px}
+.tpl-course-module .obj-list{list-style:none;padding:0;margin:0;font-size:13px;color:var(--text-2);line-height:1.45}
+.tpl-course-module .obj-list li{padding:7px 0 7px 22px;position:relative;border-bottom:1px dashed var(--border)}
+.tpl-course-module .obj-list li::before{content:'○';position:absolute;left:0;top:7px;color:var(--accent)}
+.tpl-course-module .obj-list li.done::before{content:'●';color:var(--accent)}
+.tpl-course-module .obj-list li.current{color:var(--text-1);font-weight:700}
+.tpl-course-module .obj-list li.current::before{content:'▸';color:var(--accent-2)}
+.tpl-course-module .main{min-width:0}
+.tpl-course-module .h1{font-family:'Playfair Display',serif;font-size:70px;line-height:1.04;font-weight:800;letter-spacing:-.02em;color:var(--text-1)}
+.tpl-course-module .h2{font-family:'Playfair Display',serif;font-size:43px;line-height:1.14;font-weight:800;letter-spacing:-.015em;color:var(--text-1);margin:0}
+.tpl-course-module h3,.tpl-course-module h4{color:var(--text-1)}
+.tpl-course-module .kicker{color:var(--accent-2);font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.tpl-course-module .lede{font-size:18px;color:var(--text-2);line-height:1.65}
+.tpl-course-module .callout{border-left:4px solid var(--accent-2);background:var(--surface-2);padding:16px 22px;border-radius:0 var(--radius) var(--radius) 0;margin-top:18px;font-size:17px;line-height:1.6}
+.tpl-course-module .callout b{color:var(--accent-2)}
+.tpl-course-module .concept-box{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px 22px;box-shadow:var(--shadow)}
+.tpl-course-module .concept-box h4{margin-top:0;color:var(--accent);font-size:19px}
+.tpl-course-module .concept-box p{margin:6px 0 0;font-size:16px;line-height:1.55;color:var(--text-2)}
+.tpl-course-module .pill-academic{display:inline-block;padding:5px 12px;border-radius:6px;background:var(--surface-2);border:1px solid var(--border);font-size:12px;color:var(--text-2);font-weight:700}
+.tpl-course-module .slide.full .h1{font-size:86px}
+.tpl-course-module .deck-footer{color:var(--text-3);font-size:12px}
+.tpl-course-module .cue{font-size:12px;font-weight:800;letter-spacing:.14em;color:var(--accent-2);text-transform:uppercase}
+.tpl-course-module .side-note{font-size:12.5px;color:var(--text-3);line-height:1.6}
+.tpl-course-module .formula{font-family:'Playfair Display',serif;font-size:34px;font-weight:800;color:var(--accent)}
+.tpl-course-module .split-fig{display:grid;grid-template-columns:1.12fr .88fr;gap:28px;align-items:center;margin-top:16px}
+.tpl-course-module .split-fig.tight{grid-template-columns:1fr 1fr}
+.tpl-course-module .fig{display:flex;flex-direction:column;min-width:0}
+.tpl-course-module .fig .img-frame{width:100%;--img-ratio:16/9}
+.tpl-course-module .img-frame.contain{background:#f6f3ea;border:1px solid var(--border);border-radius:var(--radius)}
+.tpl-course-module .img-frame.mt-m{margin-top:18px}
+.tpl-course-module .img-cap{margin:8px 2px 0;font-size:13.5px;line-height:1.5;color:var(--text-3)}
+.tpl-course-module .fact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px}
+.tpl-course-module .fact{background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;padding:15px 18px}
+.tpl-course-module .fact.warn{border-left-color:var(--accent-2)}
+.tpl-course-module .fact.red{border-left-color:var(--accent-3)}
+.tpl-course-module .fact b{display:block;font-size:17px;color:var(--text-1);margin-bottom:4px}
+.tpl-course-module .fact span{font-size:15px;color:var(--text-2);line-height:1.5}
+.tpl-course-module .tag-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.tpl-course-module .tag{padding:7px 14px;border-radius:999px;background:#eef6f2;border:1px solid #bcd8ce;color:#2d7d6e;font-size:14px;font-weight:700}
+.tpl-course-module .tag.o{background:#fdf4e9;border-color:#ecd0a7;color:#a8641d}
+.tpl-course-module .tag.r{background:#fbeeeb;border-color:#e7c0b8;color:#a4442f}
+.tpl-course-module .steps{counter-reset:st;list-style:none;padding:0;margin:14px 0 0;display:grid;gap:10px}
+.tpl-course-module .steps li{counter-increment:st;position:relative;padding:12px 16px 12px 50px;background:var(--surface);border:1px solid var(--border);border-radius:10px;font-size:16px;line-height:1.5;color:var(--text-2)}
+.tpl-course-module .steps li::before{content:counter(st);position:absolute;left:13px;top:11px;width:25px;height:25px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.tpl-course-module .cover-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:52px;align-items:center;width:100%}
+.tpl-course-module .cover-visual{position:relative;min-height:540px}
+.tpl-course-module .cover-visual .fx-layer{position:absolute;inset:0;opacity:.5}
+.tpl-course-module .cover-visual .img-frame{position:relative;z-index:1;--img-ratio:4/3;border:none;box-shadow:none;background:transparent}
+.tpl-course-module .cover-badge{display:inline-flex;align-items:center;gap:10px;padding:8px 18px;border-radius:999px;background:var(--accent);color:var(--accent-ink);font-size:14px;font-weight:800;letter-spacing:.08em}
+.tpl-course-module .cover-meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.tpl-course-module .cover-meta span{padding:8px 15px;border:1px solid var(--border-strong);border-radius:8px;font-size:13px;color:var(--text-2);font-weight:600}
+.tpl-course-module .cover-title{font-size:84px;line-height:1.02;margin:16px 0 20px}
+.tpl-course-module .cover-title em{color:var(--accent);font-style:italic}
+.tpl-course-module .roadmap{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:18px}
+.tpl-course-module .road{display:flex;gap:14px;align-items:center;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+.tpl-course-module .road .n{flex:none;width:38px;height:38px;border-radius:10px;background:var(--accent);color:#fff;font-weight:800;font-size:17px;display:flex;align-items:center;justify-content:center}
+.tpl-course-module .road b{font-size:17px;display:block;color:var(--text-1)}
+.tpl-course-module .road small{font-size:13px;color:var(--text-3)}
+.tpl-course-module .quiz{display:grid;gap:12px;margin-top:16px}
+.tpl-course-module .q{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 20px}
+.tpl-course-module .q .qt{font-size:16px;font-weight:700;color:var(--text-1);margin-bottom:7px}
+.tpl-course-module .q .qa{font-size:15px;color:var(--text-2)}
+.tpl-course-module .q .ans{color:var(--accent);font-weight:800}
+.tpl-course-module .summary-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+.tpl-course-module .sum{background:var(--surface);border:1px solid var(--border);border-top:4px solid var(--accent);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+.tpl-course-module .sum:nth-child(2){border-top-color:var(--accent-2)}
+.tpl-course-module .sum:nth-child(3){border-top-color:var(--accent-3)}
+.tpl-course-module .sum:nth-child(4){border-top-color:#4ea893}
+.tpl-course-module .sum b{display:block;font-size:16px;color:var(--text-1);margin-bottom:6px}
+.tpl-course-module .sum span{font-size:14px;line-height:1.5;color:var(--text-2)}
+.tpl-course-module .tiny{font-size:13px;color:var(--text-3);line-height:1.55}

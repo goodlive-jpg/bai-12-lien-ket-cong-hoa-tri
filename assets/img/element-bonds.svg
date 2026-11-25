@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 560" width="1400" height="560">
+<defs>
+  <style>
+    .ti{font:800 28px Arial,Helvetica,sans-serif;fill:#2d7d6e;text-anchor:middle}
+    .sym{font:800 40px Arial,Helvetica,sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:central}
+    .sub{font:600 17px Arial,Helvetica,sans-serif;fill:#5a5140;text-anchor:middle}
+    .b{stroke:#2a2418;stroke-width:7;stroke-linecap:round;animation:dr 2.6s linear infinite}
+    @keyframes dr{to{stroke-dashoffset:-36}}
+  </style>
+</defs>
+<rect width="1400" height="560" rx="18" fill="#f6f3ea"/>
+<g stroke="#d9d2c1" stroke-width="2"><path d="M350 50V510M700 50V510M1050 50V510"/></g>
+<g>
+  <text x="175" y="62" class="ti">H₂</text>
+  <circle cx="120" cy="250" r="54" fill="#2d7d6e"/><text x="120" y="252" class="sym">H</text>
+  <circle cx="240" cy="250" r="54" fill="#2d7d6e"/><text x="240" y="252" class="sym">H</text>
+  <path d="M174 250H186" stroke="#2a2418" stroke-width="8"/>
+  <circle cx="180" cy="222" r="7" fill="#d88a3a"/><circle cx="180" cy="278" r="7" fill="#d88a3a"/>
+  <text x="180" y="380" class="sub">1 cặp dùng chung</text><text x="180" y="412" class="ti" style="font-size:22px">liên kết đơn</text>
+</g>
+<g>
+  <text x="525" y="62" class="ti">Cl₂</text>
+  <circle cx="470" cy="250" r="54" fill="#4ea893"/><text x="470" y="252" class="sym">Cl</text>
+  <circle cx="590" cy="250" r="54" fill="#4ea893"/><text x="590" y="252" class="sym">Cl</text>
+  <path d="M524 250H536" stroke="#2a2418" stroke-width="8"/>
+  <g fill="#2a2418"><circle cx="450" cy="205" r="6"/><circle cx="478" cy="205" r="6"/><circle cx="450" cy="295" r="6"/><circle cx="478" cy="295" r="6"/><circle cx="582" cy="205" r="6"/><circle cx="610" cy="205" r="6"/><circle cx="582" cy="295" r="6"/><circle cx="610" cy="295" r="6"/></g>
+  <text x="530" y="380" class="sub">1 cặp dùng chung</text><text x="530" y="412" class="ti" style="font-size:22px">liên kết đơn</text>
+</g>
+<g>
+  <text x="875" y="62" class="ti">O₂</text>
+  <circle cx="820" cy="250" r="54" fill="#c4593f"/><text x="820" y="252" class="sym">O</text>
+  <circle cx="940" cy="250" r="54" fill="#c4593f"/><text x="940" y="252" class="sym">O</text>
+  <path d="M874 238H886M874 262H886" stroke="#2a2418" stroke-width="7" class="b"/>
+  <g fill="#2a2418"><circle cx="800" cy="205" r="6"/><circle cx="828" cy="205" r="6"/><circle cx="800" cy="295" r="6"/><circle cx="828" cy="295" r="6"/><circle cx="932" cy="205" r="6"/><circle cx="960" cy="205" r="6"/><circle cx="932" cy="295" r="6"/><circle cx="960" cy="295" r="6"/></g>
+  <text x="880" y="380" class="sub">2 cặp dùng chung</text><text x="880" y="412" class="ti" style="font-size:22px">liên kết đôi</text>
+</g>
+<g>
+  <text x="1225" y="62" class="ti">N₂</text>
+  <circle cx="1170" cy="250" r="54" fill="#d88a3a"/><text x="1170" y="252" class="sym">N</text>
+  <circle cx="1290" cy="250" r="54" fill="#d88a3a"/><text x="1290" y="252" class="sym">N</text>
+  <path d="M1224 232H1236M1224 250H1236M1224 268H1236" stroke="#2a2418" stroke-width="6" class="b"/>
+  <g fill="#2a2418"><circle cx="1160" cy="205" r="6"/><circle cx="1188" cy="205" r="6"/><circle cx="1270" cy="205" r="6"/><circle cx="1298" cy="205" r="6"/></g>
+  <text x="1230" y="380" class="sub">3 cặp dùng chung</text><text x="1230" y="412" class="ti" style="font-size:22px">liên kết ba</text>
+</g>
+<text x="700" y="500" class="sub" style="font-size:20px;fill:#2a2418;font-weight:700">Số cặp electron dùng chung = bội liên kết · quy tắc octet được thỏa mãn</text>
+</svg>

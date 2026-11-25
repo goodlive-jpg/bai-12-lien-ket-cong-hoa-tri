@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<defs>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#2d7d6e" stroke-opacity=".09" stroke-width="1"/></pattern>
+  <radialGradient id="halo"><stop offset="0" stop-color="#4ea893" stop-opacity=".42"/><stop offset="1" stop-color="#4ea893" stop-opacity="0"/></radialGradient>
+  <linearGradient id="bond" x1="0" x2="1"><stop offset="0" stop-color="#4ea893"/><stop offset="1" stop-color="#d88a3a"/></linearGradient>
+  <style>
+    .flow{stroke-dasharray:12 10;animation:fl 2.4s linear infinite}
+    @keyframes fl{to{stroke-dashoffset:-44}}
+    .halo{transform-box:fill-box;transform-origin:center;animation:pl 4s ease-in-out infinite}
+    .halo.b{animation-delay:-1.4s}.halo.c{animation-delay:-2.6s}
+    @keyframes pl{0%,100%{opacity:.45;transform:scale(.9)}50%{opacity:1;transform:scale(1.12)}}
+    .atom{font:700 34px Arial,Helvetica,sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:central}
+    .small{font:600 17px Arial,Helvetica,sans-serif;fill:#5a5140;text-anchor:middle}
+  </style>
+</defs>
+<rect width="1200" height="760" fill="#f6f3ea"/>
+<rect width="1200" height="760" fill="url(#grid)"/>
+<circle cx="600" cy="380" r="230" fill="url(#halo)"/>
+<g opacity=".32">
+  <circle cx="180" cy="150" r="120" fill="url(#halo)" class="halo c"/>
+  <path d="M120 150 L228 150" stroke="#4ea893" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="120" cy="150" r="28" fill="#4ea893"/><circle cx="228" cy="150" r="28" fill="#d88a3a"/>
+  <circle cx="1020" cy="610" r="130" fill="url(#halo)" class="halo b"/>
+  <path d="M960 610 L1078 610" stroke="#4ea893" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="960" cy="610" r="28" fill="#d88a3a"/><circle cx="1078" cy="610" r="28" fill="#4ea893"/>
+</g>
+<path d="M600 380 L420 262 M600 380 L780 262" stroke="url(#bond)" stroke-width="15" stroke-linecap="round"/>
+<path d="M600 380 L420 262 M600 380 L780 262" stroke="#ffffff" stroke-width="3" stroke-opacity=".75" class="flow"/>
+<circle cx="420" cy="262" r="190" fill="url(#halo)" class="halo"/>
+<circle cx="780" cy="262" r="190" fill="url(#halo)" class="halo b"/>
+<circle cx="600" cy="380" r="72" fill="url(#halo)" class="halo c"/>
+<circle cx="600" cy="380" r="58" fill="#2d7d6e" stroke="#fff" stroke-width="5"/>
+<text x="600" y="382" class="atom">O</text>
+<circle cx="420" cy="262" r="44" fill="#ffffff" stroke="#2d7d6e" stroke-width="5"/>
+<text x="420" y="264" class="atom" style="fill:#2d7d6e">H</text>
+<circle cx="780" cy="262" r="44" fill="#ffffff" stroke="#d88a3a" stroke-width="5"/>
+<text x="780" y="264" class="atom" style="fill:#d88a3a">H</text>
+<circle cx="628" cy="332" r="6" fill="#2a2418"/><circle cx="652" cy="344" r="6" fill="#2a2418"/>
+<text x="600" y="505" class="small" style="font-size:22px;fill:#2a2418;font-weight:700">H₂O · chia sẻ electron</text>
+<text x="600" y="540" class="small">mỗi cặp electron dùng chung → một liên kết cộng hóa trị</text>
+</svg>

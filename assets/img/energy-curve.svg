@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480">
+<defs>
+  <style>
+    .ax{stroke:#8a7f68;stroke-width:2}
+    .curve{fill:none;stroke:#2d7d6e;stroke-width:7;stroke-linecap:round}
+    .guide{stroke:#d88a3a;stroke-width:3;stroke-dasharray:8 8}
+    .t{font:600 17px Arial,Helvetica,sans-serif;fill:#5a5140}
+    .tb{font:700 22px Arial,Helvetica,sans-serif;fill:#2a2418}
+    .dot{animation:pu 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes pu{0%,100%{opacity:.5;transform:scale(.8)}50%{opacity:1;transform:scale(1.18)}}
+  </style>
+</defs>
+<rect width="1200" height="480" rx="18" fill="#fbfaf6"/>
+<path d="M110 400 H1110 M110 400 V70" class="ax"/>
+<path d="M140 110 C 300 108, 430 150, 560 330 C 610 396, 660 396, 715 330 C 830 185, 960 120, 1090 100" class="curve"/>
+<path d="M635 372 V400" class="guide"/>
+<path d="M635 372 H110" class="guide" opacity=".55"/>
+<circle cx="635" cy="372" r="15" fill="#d88a3a" class="dot"/>
+<text x="635" y="438" class="t" text-anchor="middle">khoảng cách cân bằng</text>
+<text x="790" y="352" class="tb">E thấp nhất → phân tử bền</text>
+<text x="180" y="96" class="t">E cao</text>
+<text x="88" y="82" class="tb" transform="rotate(-90 88 82)">Năng lượng</text>
+<text x="1090" y="438" class="t" text-anchor="end">Khoảng cách giữa 2 hạt nhân →</text>
+<text x="300" y="250" class="tb" style="fill:#2d7d6e">tiếp cận</text>
+<path d="M300 268 L410 300" stroke="#2d7d6e" stroke-width="3" marker-end="url(#a2)"/>
+<defs><marker id="a2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2d7d6e"/></marker></defs>
+</svg>

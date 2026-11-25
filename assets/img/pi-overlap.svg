@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
+<defs>
+  <style>
+    .orb{fill:#4ea893;fill-opacity:.26;stroke:#2d7d6e;stroke-width:3}
+    .ov{fill:#d88a3a;fill-opacity:.6;animation:pl 2.4s ease-in-out infinite}
+    @keyframes pl{0%,100%{opacity:.45}50%{opacity:1}}
+    .ax{stroke:#8a7f68;stroke-width:2;stroke-dasharray:10 8}
+    .lb{font:600 18px Arial,Helvetica,sans-serif;fill:#5a5140;text-anchor:middle}
+    .pi{font:800 44px Arial,Helvetica,sans-serif;fill:#2a2418;text-anchor:middle}
+    .bob{animation:bb 4s ease-in-out infinite}
+    @keyframes bb{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  </style>
+</defs>
+<rect width="900" height="500" rx="18" fill="#fbfaf6"/>
+<path d="M60 250 H840" class="ax"/>
+<g class="bob">
+  <ellipse cx="320" cy="175" rx="56" ry="76" class="orb"/><ellipse cx="320" cy="325" rx="56" ry="76" class="orb"/>
+  <ellipse cx="580" cy="175" rx="56" ry="76" class="orb"/><ellipse cx="580" cy="325" rx="56" ry="76" class="orb"/>
+  <path d="M376 118 Q450 78 524 118 Q450 155 376 118Z" class="ov"/>
+  <path d="M376 382 Q450 422 524 382 Q450 345 376 382Z" class="ov"/>
+</g>
+<circle cx="320" cy="250" r="8" fill="#2a2418"/><circle cx="580" cy="250" r="8" fill="#2a2418"/>
+<text x="450" y="232" class="pi">π</text>
+<text x="450" y="455" class="lb" style="font-size:20px;fill:#2a2418;font-weight:700">xen phủ bên · 2 vùng chồng lên nhau</text>
+<text x="450" y="485" class="lb">không đối xứng quanh trục · kém bền hơn σ</text>
+</svg>

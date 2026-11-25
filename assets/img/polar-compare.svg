@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 560" width="1400" height="560">
+<defs>
+  <style>
+    .ti{font:800 27px Arial,Helvetica,sans-serif;fill:#2d7d6e;text-anchor:middle}
+    .sym{font:800 38px Arial,Helvetica,sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:central}
+    .symh{font:800 38px Arial,Helvetica,sans-serif;fill:#2d7d6e;text-anchor:middle;dominant-baseline:central}
+    .lab{font:600 19px Arial,Helvetica,sans-serif;fill:#5a5140;text-anchor:middle}
+    .big{font:800 24px Arial,Helvetica,sans-serif;fill:#2a2418;text-anchor:middle}
+    .arr{stroke:#c4593f;stroke-width:6;fill:none;animation:pl 2.6s ease-in-out infinite}
+    @keyframes pl{0%,100%{opacity:.45}50%{opacity:1}}
+    .pair{fill:#d88a3a;animation:pu 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes pu{0%,100%{transform:scale(.85)}50%{transform:scale(1.2)}}
+  </style>
+</defs>
+<rect width="1400" height="560" rx="18" fill="#f6f3ea"/>
+<rect x="40" y="40" width="630" height="480" rx="16" fill="#fff" stroke="#d9d2c1" stroke-width="2"/>
+<rect x="730" y="40" width="630" height="480" rx="16" fill="#fff" stroke="#d9d2c1" stroke-width="2"/>
+<text x="355" y="88" class="ti">KHÔNG PHÂN CỰC · Cl₂</text>
+<text x="1045" y="88" class="ti">PHÂN CỰC · HCl</text>
+<ellipse cx="355" cy="255" rx="215" ry="85" fill="#4ea893" opacity=".16"/>
+<circle cx="265" cy="255" r="60" fill="#4ea893"/><text x="265" y="256" class="sym">Cl</text>
+<circle cx="445" cy="255" r="60" fill="#4ea893"/><text x="445" y="256" class="sym">Cl</text>
+<path d="M325 255H385" stroke="#2a2418" stroke-width="8"/>
+<circle cx="345" cy="255" r="9" class="pair"/><circle cx="365" cy="255" r="9" class="pair"/>
+<text x="355" y="390" class="big">Δχ = |3,16 − 3,16| = 0</text>
+<text x="355" y="430" class="lab">cặp electron dùng chung ở chính giữa</text>
+<text x="355" y="468" class="lab">phân tử không có cực điện</text>
+<ellipse cx="1010" cy="255" rx="220" ry="88" fill="#d88a3a" opacity=".16"/>
+<ellipse cx="1090" cy="255" rx="92" ry="82" fill="#d88a3a" opacity=".14"/>
+<circle cx="925" cy="255" r="46" fill="#fff" stroke="#2d7d6e" stroke-width="5"/><text x="925" y="256" class="symh">H</text>
+<circle cx="1085" cy="255" r="60" fill="#4ea893"/><text x="1085" y="256" class="sym">Cl</text>
+<path d="M971 255H1025" stroke="#2a2418" stroke-width="8"/>
+<circle cx="1010" cy="255" r="9" class="pair"/><circle cx="1030" cy="255" r="9" class="pair"/>
+<text x="915" y="200" class="big" style="fill:#c4593f">δ+</text><text x="1100" y="200" class="big" style="fill:#2d7d6e">δ−</text>
+<path d="M990 330 H1080" class="arr" marker-end="url(#dip)"/>
+<defs><marker id="dip" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 z" fill="#c4593f"/></marker></defs>
+<text x="1045" y="390" class="big">Δχ = |3,16 − 2,20| = 0,96</text>
+<text x="1045" y="430" class="lab">electron lệch về Cl → có cực âm / dương</text>
+<text x="1045" y="468" class="lab">mũi tên hướng từ δ+ đến δ−</text>
+</svg>
